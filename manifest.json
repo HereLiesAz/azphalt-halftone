@@ -1,0 +1,28 @@
+{
+  "azphalt": "0.1",
+  "id": "com.hereliesaz.azphalt.halftone",
+  "name": "Halftone",
+  "version": "1.0.0",
+  "kind": "code",
+  "license": "GPL-3.0-or-later",
+  "compat": ">=0.1",
+  "description": "Resample the layer into ink dots on a rotated screen, each dot sized by local darkness. Monochrome single-ink-over-paper — the classic print / stencil stipple.",
+  "author": "HereLiesAz",
+  "runtime": "js",
+  "entry": "code/main.js",
+  "capabilities": [
+    "bitmap",
+    "params",
+    "color"
+  ],
+  "contributes": {
+    "filters": [
+      {
+        "id": "com.hereliesaz.azphalt.halftone",
+        "name": "Halftone",
+        "entry": "halftone",
+        "ui": "ui/panel.json"
+      }
+    ]
+  }
+}
