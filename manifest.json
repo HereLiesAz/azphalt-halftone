@@ -13,7 +13,7 @@
   "capabilities": [
     "bitmap",
     "params",
-    "color"
+    "canvas"
   ],
   "contributes": {
     "filters": [
