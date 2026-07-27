@@ -1,0 +1,16 @@
+{
+  "name": "azphalt-filter-halftone",
+  "version": "1.0.0",
+  "description": "Azphalt Filter: Halftone",
+  "type": "module",
+  "author": "HereLiesAz",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "@azphalt/azp": "^0.1.0",
+    "@azphalt/azdk": "^0.1.0",
+    "@azphalt/sdk": "^0.1.0"
+  }
+}
